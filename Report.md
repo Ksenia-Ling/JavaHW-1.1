@@ -1,8 +1,8 @@
-# Отчёт о тестировании Key Validator
+# Отчёт о тестировании установки OpenJDK11 и работы Key Validator
 
 ## Краткое описание
 
-28.04.20 было проведено функциональное тестирование приложения Key Validator.class
+28.04.20 было проведено тестирование установки OpenJDK11, а также  функциональное тестирование приложения Key Validator.class
 
 На тестирование затрачено: 0.5 часа
 
@@ -11,15 +11,35 @@
 * [Валидный ключ 387ee... для KeyValidator выдаёт Fail](https://github.com/Ksenia-Ling/JavaHW-1.1/issues/2) 
 * [Невалидный ключ 2fb98... для KeyValidator выдаёт Ok](https://github.com/Ksenia-Ling/JavaHW-1.1/issues/3) 
 
+В результате тестирования установки OpenJDK11 дефектов не выявлено.
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты:
+* Инструкция по установке OpenJDK11
 * Руководство использования Key Validator
 * Баг-репорты
 * Отчёт о тестировании
 
 
-В качестве тестовых данных использовались данные из [руководства использования Key Validator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md)
+В качестве тестовых данных использовались данные из [инструкции по установке OpenJDK11](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md)
+
+После установки откройте терминал и выполните команду:
+
+```
+java -version
+```
+
+Ожидаемый результат: вывод подобный 
+
+```
+openjdk version "11.0.5" 2019-10-15 
+
+OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.5+10)
+
+OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.5+10, mixed mode)
+```
+
+ А также данные из [руководства использования Key Validator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md)
 
 Валидные ключи:
 
