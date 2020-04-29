@@ -7,9 +7,8 @@
 На тестирование затрачено: 0.5 часа
 
 В результате тестирования выявлены следующие дефекты:
-* [Валидный ключ 8f05e... для KeyValidator выдаёт Fail](https://github.com/Ksenia-Ling/JavaHW-1.1/issues/1) 
-* [Валидный ключ 387ee... для KeyValidator выдаёт Fail](https://github.com/Ksenia-Ling/JavaHW-1.1/issues/2) 
-* [Невалидный ключ 2fb98... для KeyValidator выдаёт Ok](https://github.com/Ksenia-Ling/JavaHW-1.1/issues/3) 
+* [Валидные ключи для KeyValidator выдают Fail](https://github.com/Ksenia-Ling/JavaHW-1.1/issues/1) 
+* [Невалидный ключ для KeyValidator выдаёт Ok](https://github.com/Ksenia-Ling/JavaHW-1.1/issues/3) 
 
 В результате тестирования установки OpenJDK11 дефектов не выявлено.
 ## Описание процесса тестирования
